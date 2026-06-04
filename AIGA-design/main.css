@@ -1,0 +1,44 @@
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #F5F5F5;
+  }
+
+  .hero {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: 0 -94px;
+    background-size: 100%;
+    background-color: #fff;
+    width: 375px;
+  }
+  .top-header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 375px;
+  z-index: 1000;
+}
+
+.top-header img {
+  width: 100%;
+  display: block;
+}
+
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 375px;
+    z-index: 1000;
+  }
+
+  .bottom-nav img {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+  }
